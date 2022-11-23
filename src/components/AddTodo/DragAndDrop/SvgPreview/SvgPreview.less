@@ -1,0 +1,38 @@
+.preview_removeIcon {
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 47%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 9999;
+
+  > svg {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+.drag_preview {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.previewSvg:hover {
+  filter: blur(15px);
+}
+
+.drag_preview:hover > .preview_removeIcon {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.preview_removeIcon:hover + .previewSvg {
+  filter: blur(15px);
+}
+
+.drag_preview:hover > .preview_removeIcon:hover {
+  opacity: 0.3;
+}

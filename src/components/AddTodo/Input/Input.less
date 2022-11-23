@@ -1,0 +1,43 @@
+.input_container {
+  height: 90px;
+}
+
+.input_container input {
+  font-family: 'Caveat', cursive;
+  border-radius: 5px;
+  background: white;
+  outline: none;
+  width: 450px;
+  height: 40px;
+  position: relative;
+}
+
+.input_title {
+  text-align: left;
+  margin-bottom: 5px;
+  color: #ffe5cc;
+}
+
+.input_error {
+  border: 2px solid red;
+}
+
+.input_error_message {
+  height: 7px;
+  font-size: 12px;
+  color: red;
+  text-align: left;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}

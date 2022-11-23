@@ -1,0 +1,47 @@
+@grey: '#667588';
+@red: red;
+
+.drag_container {
+  font-family: 'Caveat', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: calc(100% - 20px);
+  max-height: 250px;
+  border-radius: 5px;
+  background: white;
+  color: @grey;
+
+  &.drag_error {
+    outline: 2px solid @red;
+  }
+}
+
+.drag_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  border: 2px
+}
+
+.previewSvg {
+  height: 100%;
+  width: 100%;
+  transition: all 0.2s ease-out;
+
+  > svg {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.drag_error_message {
+  height: 7px;
+  font-size: 12px;
+  color: @red;
+  text-align: left;
+}
