@@ -1,4 +1,5 @@
-### Live-версия проекта доступна по ссылке https://shkirenkoroma.github.io/todoOnREACT/
+#### Live-версия проекта доступна по ссылке: https://shkirenkoroma.github.io/todoOnREACT/
+
 Проект "Todo-лист"
 ![image](https://user-images.githubusercontent.com/61347452/228743122-5207e737-e568-41cb-af94-8c689191e0fe.png)
 ![image](https://user-images.githubusercontent.com/61347452/228743246-ec3e53d6-5532-4a63-89a6-d97942b8368f.png)
